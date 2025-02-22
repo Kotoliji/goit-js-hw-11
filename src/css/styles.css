@@ -1,18 +1,76 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+body{
+  /* max-width: 1180px; */
+  margin: 0;
+}
+li{
+  list-style-type:none;
+}
+image{
+  display: block;
+}
+.allform{
+  display: flex;
+  gap: 10px; 
+  justify-content: center;
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+}
+button{
+  width: 75px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px 16px 8px 16px;
+  background-color: #4E75FF;
+  border: 0;
+  color: #fff;
+}
+input{
+  width: 272px;
+  height: 40px;
+  border-radius: 4px;
+  border: 2px solid #585751;
+  outline:none;
+
+}
+input:focus{
+  border-color:  #4E75FF;
+  
+}
+input:hover{
+  border-color: #000000;
+}
+button:hover{
+  background-color: #6C8CFF;
+}
+.allPicture{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:24px;
+  padding:0%;
+}  
+
+.onePicture{
+  width: 360px;
+  background-color: #FFFFFF;
+  border: 1px solid #808080;
+}
+
+
+.pictureImage{
+  
+  width: 360px;
+  height: 230px;
+}
+.tags{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  
+}
+.tags p{
+  width: 34px;
+  height: 40px;
+  flex: 1;
+  padding-right: 10px;
+  margin: 0;
+}
